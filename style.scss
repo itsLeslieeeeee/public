@@ -1,19 +1,19 @@
 
 @font-face {
 	font-family: "TT Lakes";
-	src: url("../assets/fonts/TTLakes-Regular.woff") format("woff");
+	src: url("assets/fonts/TTLakes-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: "TT Lakes";
-	src: url("../assets/fonts/TTLakes-Medium.woff") format("woff");
+	src: url("assets/fonts/TTLakes-Medium.woff") format("woff");
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
 	font-family: "TT Lakes";
-	src: url("../assets/fonts/TTLakes-Bold.woff") format("woff");
+	src: url("assets/fonts/TTLakes-Bold.woff") format("woff");
 	font-weight: 700;
 	font-style: normal;
 }
@@ -54,7 +54,7 @@ main {
 		width: 40px;
 		height: 40px;
 		border-radius: 50%;
-		background-image: url(/public/assets/icons/burger.svg);
+		background-image: url(assets/icons/burger.svg);
 		background-repeat: no-repeat;
 		background-position: center;
 		order: -6;
@@ -91,7 +91,7 @@ main {
 		width: 40px;
 		height: 40px;
 		border-radius: 50%;
-		background-image: url(/public/assets/icons/repair.svg);
+		background-image: url(assets/icons/repair.svg);
 		background-repeat: no-repeat;
 		background-position: center;
 	}
@@ -101,7 +101,7 @@ main {
 		width: 40px;
 		height: 40px;
 		border-radius: 50%;
-		background-image: url(/public/assets/icons/checkstatus.svg);
+		background-image: url(assets/icons/checkstatus.svg);
 		background-repeat: no-repeat;
 		background-position: center;
 	}
@@ -236,7 +236,7 @@ main {
 	}
 
 	&__button::before {
-		content: url(/public/assets/icons/expand.svg);
+		content: url(assets/icons/expand.svg);
 		vertical-align: middle;
 		margin-right: 8px;
 		margin-left: 10px;
@@ -297,7 +297,7 @@ body {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background-image: url(/public/assets/icons/call.svg);
+	background-image: url(assets/icons/call.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	display: flex;
@@ -310,7 +310,7 @@ body {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background-image: url(/public/assets/icons/message.svg);
+	background-image: url(assets/icons/message.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	display: flex;
@@ -323,7 +323,7 @@ body {
 	height: 40px;
 	border-radius: 50%;
 	background-color: #FF3E79;
-	background-image: url(/public/assets/icons/profile.svg);
+	background-image: url(assets/icons/profile.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	display: flex;
